@@ -1,18 +1,8 @@
 from typing import List, Any
 
 
-def all_the_same_no_hashable(elements_lst: List[Any]) -> bool:
-    return all(
-        map(
-            lambda x: elements_lst.count(x) == len(elements_lst),
-            elements_lst
-        )
-    )
-
-
 def all_the_same(elements_lst: List[Any]) -> bool:
-    # return len(set(elements_lst)) <= 1
-    return elements_lst[1:] == elements_lst[:-1]
+    return len(set(elements_lst)) <= 1
 
 
 if __name__ == '__main__':
