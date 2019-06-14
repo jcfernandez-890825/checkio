@@ -8,6 +8,15 @@ def flat_list(array: list) -> list:
     )
 
 
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/flatten-list/
+Chekio Solution Link:
+https://py.checkio.org/mission/flatten-list/publications/jcfernandez/python-3/only-one-line/
+Chekio Profile Link:
+https://py.checkio.org/user/jcfernandez/solutions/
+'''
+
 if __name__ == '__main__':
     print(flat_list([1, 2, 3]))
     print(flat_list([1, [2, 2, 2], 4]))
