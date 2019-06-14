@@ -11,6 +11,15 @@ def long_repeat(line):
     return max(max_len, current_len) if line else 0
 
 
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/long-repeat/
+Chekio Solution Link:
+https://py.checkio.org/mission/long-repeat/publications/jcfernandez/python-3/one-loop-very-fast/
+Chekio Profile Link:
+https://py.checkio.org/user/jcfernandez/solutions/
+'''
+
 if __name__ == '__main__':
     from timeit import default_timer as time
 
