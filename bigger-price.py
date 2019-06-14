@@ -6,6 +6,15 @@ def bigger_price(limit: int, data: list) -> list:
     return sorted(data, reverse=True, key=lambda i: i['price'])[:limit]
 
 
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/bigger-price/
+Chekio Solution Link:
+https://py.checkio.org/mission/bigger-price/publications/jcfernandez/python-3/only-one-line/
+Chekio Profile Link:
+https://py.checkio.org/user/jcfernandez/solutions/
+'''
+
 if __name__ == '__main__':
     from pprint import pprint
     print('Example:')
