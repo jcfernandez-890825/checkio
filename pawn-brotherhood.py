@@ -11,6 +11,14 @@ def safe_pawns(pawns: set) -> int:
         )
     )
 
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/pawn-brotherhood/
+Chekio Solution Link:
+https://py.checkio.org/mission/pawn-brotherhood/publications/jcfernandez/python-3/only-one-line/
+Chekio Profile Link:
+https://py.checkio.org/user/jcfernandez/solutions/
+'''
 
 if __name__ == '__main__':
     print(safe_pawns({"b4", "d4", "f4", "c3", "e3", "g5", "d2"}))
