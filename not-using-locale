@@ -7,9 +7,9 @@ def time_converter(time):
 
 '''
 Chekio Mission Link:
-https://py.checkio.org/en/mission/long-repeat/
+https://py.checkio.org/en/mission/not-using-locale/
 Chekio Solution Link:
-https://py.checkio.org/mission/long-repeat/publications/jcfernandez/python-3/only-one-line/
+https://py.checkio.org/mission/not-using-locale/publications/jcfernandez/python-3/only-one-line/
 Chekio Profile Link:
 https://py.checkio.org/user/jcfernandez/solutions/
 '''
