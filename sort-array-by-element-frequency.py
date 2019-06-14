@@ -7,7 +7,7 @@ Chekio Mission Link:
 https://py.checkio.org/en/mission/sort-array-by-element-frequency/
 
 Chekio Solution Link:
-https://py.checkio.org/mission/sort-array-by-element-frequency/publications/jcfernandez/python-3/only-one-line/share/b925502bb310020ce2dd7314ec038769/
+https://py.checkio.org/mission/sort-array-by-element-frequency/publications/jcfernandez/python-3/only-one-line/
 
 Chekio Profile Link:
 https://py.checkio.org/user/jcfernandez/solutions/
