@@ -2,15 +2,14 @@ def frequency_sort(items):
     # your code here
     return sorted(items, key=lambda i: (items.count(i), -1 * items.index(i)), reverse=True)
 
+
 '''
 Chekio Mission Link:
 https://py.checkio.org/en/mission/sort-array-by-element-frequency/
-
 Chekio Solution Link:
-https://py.checkio.org/mission/sort-array-by-element-frequency/publications/jcfernandez/python-3/only-one-line/
-
+https://py.checkio.org/mission/sort-array-by-element-frequency/publications/jcfernandez/python-3/only-one-line/share/b925502bb310020ce2dd7314ec038769/
 Chekio Profile Link:
-https://py.checkio.org/user/jcfernandez/solutions/
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
 '''
 
 if __name__ == '__main__':

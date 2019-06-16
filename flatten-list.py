@@ -12,9 +12,9 @@ def flat_list(array: list) -> list:
 Chekio Mission Link:
 https://py.checkio.org/en/mission/flatten-list/
 Chekio Solution Link:
-https://py.checkio.org/mission/flatten-list/publications/jcfernandez/python-3/only-one-line/
+https://py.checkio.org/mission/flatten-list/publications/jcfernandez/python-3/only-one-line/share/e6a4e1b0c5345946e932e6f2844656b5/
 Chekio Profile Link:
-https://py.checkio.org/user/jcfernandez/solutions/
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
 '''
 
 if __name__ == '__main__':

@@ -15,9 +15,9 @@ def long_repeat(line):
 Chekio Mission Link:
 https://py.checkio.org/en/mission/long-repeat/
 Chekio Solution Link:
-https://py.checkio.org/mission/long-repeat/publications/jcfernandez/python-3/one-loop-very-fast/
+https://py.checkio.org/mission/long-repeat/publications/jcfernandez/python-3/one-loop-very-fast/share/7c71baf7fec3bbc34aaec81b748db1b3/
 Chekio Profile Link:
-https://py.checkio.org/user/jcfernandez/solutions/
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
 '''
 
 if __name__ == '__main__':

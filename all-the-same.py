@@ -8,13 +8,12 @@ def all_the_same(elements_lst: List[Any]) -> bool:
 '''
 Chekio Mission Link:
 https://py.checkio.org/en/mission/sort-array-by-element-frequency/
-
 Chekio Solution Link:
 https://py.checkio.org/mission/all-the-same/publications/jcfernandez/python-3/first/share/75208635e985fd18291ff5ac8d35b6e6/
-
 Chekio Profile Link:
-https://py.checkio.org/user/jcfernandez/solutions/
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
 '''
+
 
 if __name__ == '__main__':
     print("Example:")

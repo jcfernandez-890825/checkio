@@ -4,6 +4,15 @@ def time_converter(time):
     return time.strftime('%-I:%M {}').format('a.m.' if time.hour < 12 else 'p.m.')
 
 
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/long-repeat/
+Chekio Solution Link:
+https://py.checkio.org/mission/time-converter-24h-to-12h/publications/jcfernandez/python-3/not-using-locale/share/10f654ad740ba64e7f6a31ce2aad8f3a/
+Chekio Profile Link:
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
+'''
+
 if __name__ == '__main__':
     print("Example:")
     print(time_converter('12:30'))

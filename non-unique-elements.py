@@ -1,20 +1,16 @@
-# Your optional code here
-# You can import some modules or create additional functions
-
-
 def checkio(data: list) -> list:
-    # Your code here
-    # It's main function. Don't remove this function
-    # It's used for auto-testing and must return a result for check.
-
-    # replace this for solution
+    # Return all elements whose that repeat more than once in the list
     return [item for item in data if data.count(item) > 1]
 
-# Some hints
-# You can use list.count(element) method for counting.
-# Create new list with non-unique elements
-# Loop over original list
 
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/non-unique-elements/
+Chekio Solution Link:
+https://py.checkio.org/mission/common-words/publications/jcfernandez/python-3/only-one-line/share/414d7f9ed14f80e259996bdd77e346ee/
+Chekio Profile Link:
+https://py.checkio.org/mission/non-unique-elements/publications/jcfernandez/python-3/only-one-line/share/b058fd3dcc05ce3e29153c703ef0a2d8/
+'''
 
 if __name__ == "__main__":
     # These "asserts" using only for self-checking and not necessary for auto-testing

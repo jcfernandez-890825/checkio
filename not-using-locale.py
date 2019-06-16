@@ -11,7 +11,7 @@ https://py.checkio.org/en/mission/not-using-locale/
 Chekio Solution Link:
 https://py.checkio.org/mission/time-converter-24h-to-12h/publications/jcfernandez/python-3/not-using-locale/
 Chekio Profile Link:
-https://py.checkio.org/user/jcfernandez/solutions/
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
 '''
 
 if __name__ == '__main__':

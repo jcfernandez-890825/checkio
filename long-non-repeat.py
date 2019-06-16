@@ -26,9 +26,9 @@ def non_repeat(line):
 Chekio Mission Link:
 https://py.checkio.org/en/mission/long-non-repeat/
 Chekio Solution Link:
-https://py.checkio.org/mission/long-non-repeat/publications/jcfernandez/python-3/one-loop-very-fast/
+https://py.checkio.org/mission/long-non-repeat/publications/jcfernandez/python-3/one-loop-very-fast/share/5444a2e6bd9b604fa03f43d89175efd3/
 Chekio Profile Link:
-https://py.checkio.org/user/jcfernandez/solutions/
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
 '''
 
 if __name__ == '__main__':
