@@ -2,9 +2,21 @@ def bigger_price(limit: int, data: list) -> list:
     """
         TOP most expensive goods
     """
-    # your code here
-    return sorted(data, reverse=True, key=lambda i: i['price'])[:limit]
+    return sorted(
+        data,
+        reverse=True,               # In descending order
+        key=lambda i: i['price']    # Short data by price
+    )[:limit]                       # Only return as much data as limit
 
+
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/bigger-price/
+Chekio Solution Link:
+https://py.checkio.org/mission/bigger-price/publications/jcfernandez/python-3/only-one-line/share/389ad71af43401bc76983e2eff896628/
+Chekio Profile Link:
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
+'''
 
 if __name__ == '__main__':
     from pprint import pprint

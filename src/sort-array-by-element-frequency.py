@@ -3,6 +3,15 @@ def frequency_sort(items):
     return sorted(items, key=lambda i: (items.count(i), -1 * items.index(i)), reverse=True)
 
 
+'''
+Chekio Mission Link:
+https://py.checkio.org/en/mission/sort-array-by-element-frequency/
+Chekio Solution Link:
+https://py.checkio.org/mission/sort-array-by-element-frequency/publications/jcfernandez/python-3/only-one-line/share/b925502bb310020ce2dd7314ec038769/
+Chekio Profile Link:
+https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961a5f66dfb/
+'''
+
 if __name__ == '__main__':
     print("Example:")
     print(frequency_sort([4, 6, 2, 2, 6, 4, 4, 4]))
