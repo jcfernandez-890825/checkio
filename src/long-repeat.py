@@ -21,15 +21,7 @@ https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961
 '''
 
 if __name__ == '__main__':
-    from timeit import default_timer as time
-
-    start = time()
-
     # These "asserts" using only for self-checking and not necessary for auto-testing
     assert long_repeat('sdsffffse') == 4, "First"
     assert long_repeat('ddvvrwwwrggg') == 3, "Second"
     print('"Run" is good. How is "Check"?')
-
-    end = time()
-
-    print(end - start)

@@ -20,14 +20,6 @@ https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961
 
 # These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
-    from timeit import default_timer as time
-
-    start = time()
-
     assert checkio("hello,world", "hello,earth") == "hello", "Hello"
     assert checkio("one,two,three", "four,five,six") == "", "Too different"
     assert checkio("one,two,three", "four,five,one,two,six,three") == "one,three,two", "1 2 3"
-
-    end = time()
-
-    print(end - start)

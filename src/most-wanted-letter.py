@@ -28,9 +28,6 @@ https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961
 
 
 if __name__ == '__main__':
-    from timeit import timeit as time
-
-    start = time()
 
     print("Example:")
     print(checkio("Hello World!"))
@@ -45,7 +42,3 @@ if __name__ == '__main__':
     print("Start the long test")
     assert checkio("a" * 9000 + "b" * 1000) == "a", "Long."
     print("The local tests are done.")
-
-    end = time()
-
-    print(end - start)

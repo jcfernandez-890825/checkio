@@ -32,10 +32,6 @@ https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961
 '''
 
 if __name__ == '__main__':
-    from timeit import default_timer as time
-
-    start = time()
-
     # These "asserts" using only for self-checking and not necessary for auto-testing
     assert non_repeat('aaaaa') == 'a', "First"
     assert non_repeat('abdjwawk') == 'abdjw', "Second"
@@ -43,7 +39,3 @@ if __name__ == '__main__':
     assert non_repeat('fghfrtyfgh') == 'ghfrty', "Fourth"
     assert non_repeat('') == '', "Fifth"
     print('"Run" is good. How is "Check"?')
-
-    end = time()
-
-    print(end - start)
