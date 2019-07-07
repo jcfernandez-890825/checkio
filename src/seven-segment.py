@@ -5,7 +5,7 @@ def seven_segment(lit_seg, broken_seg):
     # Use this as guide
     # Hexadecimal encodings for displaying the digits 0 to F on https://en.wikipedia.org/wiki/Seven-segment_display
     # Code for getting each string in uppercase
-    from itertools import compress
+    # from itertools import compress
     # set(''.join(compress('ABCDEFG', list(int(i) for i in bin(int(string, 16))[2:].zfill(7)))) for string in
     #     ('0x7E', '0x30', '0x6D', '0x79', '0x33', '0x5B', '0x5F', '0x70', '0x7F', '0x7B'))
     segments_display_dct = {
@@ -56,7 +56,7 @@ https://py.checkio.org/user/jcfernandez/solutions/share/83d63afe87a24e810571c961
 '''
 
 if __name__ == '__main__':
-    # assert seven_segment({'B', 'C', 'b', 'c'}, {'A'}) == 2, '11, 71'
-    # assert seven_segment({'B', 'C', 'a', 'f', 'g', 'c', 'd'}, {'A', 'G', 'D', 'e'}) == 6, '15, 16, 35, 36, 75, 76'
+    assert seven_segment({'B', 'C', 'b', 'c'}, {'A'}) == 2, '11, 71'
+    assert seven_segment({'B', 'C', 'a', 'f', 'g', 'c', 'd'}, {'A', 'G', 'D', 'e'}) == 6, '15, 16, 35, 36, 75, 76'
     assert seven_segment({'B', 'C', 'a', 'f', 'g', 'c', 'd'}, {'A', 'G', 'D', 'F', 'b', 'e'}) == 20, '15...98'
     print('"Run" is good. How is "Check"?')
